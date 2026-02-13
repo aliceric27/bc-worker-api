@@ -50,9 +50,7 @@
 - `TABS_JSON`：分頁清單（合併模式用，也用於 `/taipei` 這類路由）
 - `COMMENTS_GID`：留言區 gid（`/comments` 用）
 
-## 在本機測試（請用 Windows）
-
-你目前在 WSL 環境下，我這邊不會執行 `pnpm install` / `pnpm run` 類指令；請在 Windows（PowerShell / CMD）進到此專案資料夾後執行：
+## 在本機測試（Windows）
 
 ```bash
 npm install
