@@ -1,0 +1,14 @@
+name = "bc-api-gsheet-json"
+main = "src/index.ts"
+compatibility_date = "2026-02-13"
+
+[vars]
+# Google Sheet id: https://docs.google.com/spreadsheets/d/<SHEET_ID>/...
+SHEET_ID = "1vFsVN641zHiyOVjo0n_JtrHgpH2SCHT7n9__FnbcskE"
+DEFAULT_GID = "0"
+# Edge cache TTL (seconds) for both upstream CSV fetch and this worker's JSON output.
+CACHE_TTL_SECONDS = "300"
+# Tabs for merge mode and friendly routes. Edit as needed.
+TABS_JSON = '[{"key":"taipei","name":"台北","gid":"0"},{"key":"taichung","name":"台中","gid":"687894271"},{"key":"kaohsiung","name":"高雄","gid":"33705333"},{"key":"tainan","name":"台南","gid":"2140061499"},{"key":"overseas","name":"海外","gid":"191713228"}]'
+# Dedicated comments tab (not included in default merge).
+COMMENTS_GID = "819189250"

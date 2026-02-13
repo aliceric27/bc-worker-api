@@ -1,0 +1,13 @@
+{
+  "name": "bc-api-gsheet-json-worker",
+  "private": true,
+  "type": "module",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  }
+}
+
